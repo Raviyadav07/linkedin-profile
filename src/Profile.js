@@ -1,5 +1,5 @@
-import { Avatar, Box, Button, Card, CardActionArea, CardContent, CardMedia, Link, Modal, TextField, Typography } from '@material-ui/core';
-import { Add, Edit } from '@material-ui/icons';
+import { Avatar, Box, Button, Modal, TextField, Typography } from '@material-ui/core';
+import { Edit } from '@material-ui/icons';
 import React from 'react'
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
@@ -59,29 +59,8 @@ export default function Profile() {
                 company: 'Udemy',
                 time: 'Issued Jan 2020'
             },
-        ],
-        skill: [
-            {
-                title: 'HTML5',
-            },
-            {
-                title: 'css3',
-            },
-
-            {
-                title: 'JS',
-            },
-            {
-                title: 'React',
-            }, {
-                title: 'Python',
-
-            },
-            {
-                title: 'c#',
-            },
-
         ]
+       
     });
 
 
